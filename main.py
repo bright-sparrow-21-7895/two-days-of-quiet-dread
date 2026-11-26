@@ -1,10 +1,15 @@
-"""Two Days of Quiet Dread — a code review comment that approves the pull
-request while quietly despairing: every "temporary" fix is permanent, so
-ship it; the void approves.
+"""Two Days of Quiet Dread — a one-line code review comment that approves
+the pull request while carrying quiet existential dread: the code is
+clean and well-tested, and it will go on maintaining itself in the dark
+long after the team is gone.
 """
 import os
 
-ENTRY = "LGTM. The function is named temporary_fix, like all permanent things. Ship it; the void approves."
+# The comment itself: approval first, then the dread, kept quiet.
+ENTRY = (
+    "LGTM. Clean, minimal, well-tested. It will outlive us all, "
+    "quietly maintaining itself in the dark long after the team is gone."
+)
 
 
 def main():
